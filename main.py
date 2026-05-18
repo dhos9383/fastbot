@@ -9,7 +9,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot import apihelper
 
 # --- الإعدادات الأساسية ---
-API_TOKEN = "8226554216:AAGNrdE1XH3E_PRFp31HlDK4nj7gqmWghuU"
+API_TOKEN = "7222467955:AAE2UTVKoFrOV3I9TTsJhy-dpgb0f380eJs"
 bot = telebot.TeleBot(API_TOKEN, threaded=True, num_threads=8)
 
 def safe_edit(chat_id, message_id, text, reply_markup=None, parse_mode=None):
